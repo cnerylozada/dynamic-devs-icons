@@ -19,6 +19,12 @@ export const config: Config = {
     },
     {
       type: 'www',
+      copy: [
+        {
+          src: './svg/*.svg',
+          dest: './assets/svg/',
+        },
+      ],
       serviceWorker: null, // disable service workers
     },
   ],
