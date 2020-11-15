@@ -5,9 +5,11 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { IconSize } from "./enums";
 export namespace Components {
     interface DdIcon {
         "name"?: string;
+        "size"?: IconSize;
         "src"?: string;
     }
 }
@@ -25,6 +27,7 @@ declare global {
 declare namespace LocalJSX {
     interface DdIcon {
         "name"?: string;
+        "size"?: IconSize;
         "src"?: string;
     }
     interface IntrinsicElements {
