@@ -1,0 +1,354 @@
+[
+  {
+    "name": "academy",
+    "tags": ["academy"]
+  },
+  {
+    "name": "accelerator-approach",
+    "tags": ["accelerator", "approach"]
+  },
+  {
+    "name": "agile",
+    "tags": ["agile"]
+  },
+  {
+    "name": "alert",
+    "tags": ["alert"]
+  },
+  {
+    "name": "analysis",
+    "tags": ["analysis"]
+  },
+  {
+    "name": "android-apple",
+    "tags": ["android", "apple"]
+  },
+  {
+    "name": "api",
+    "tags": ["api"]
+  },
+  {
+    "name": "architechture",
+    "tags": ["architechture"]
+  },
+  {
+    "name": "arrowbig",
+    "tags": ["arrowbig"]
+  },
+  {
+    "name": "author",
+    "tags": ["author"]
+  },
+  {
+    "name": "backend",
+    "tags": ["backend"]
+  },
+  {
+    "name": "build",
+    "tags": ["build"]
+  },
+  {
+    "name": "build-and-integrate",
+    "tags": ["build", "integrate"]
+  },
+  {
+    "name": "build-puzzle",
+    "tags": ["build", "puzzle"]
+  },
+  {
+    "name": "bussiness",
+    "tags": ["bussiness"]
+  },
+  {
+    "name": "calendar",
+    "tags": ["calendar"]
+  },
+  {
+    "name": "category",
+    "tags": ["category"]
+  },
+  {
+    "name": "certificate",
+    "tags": ["certificate"]
+  },
+  {
+    "name": "ci-cd",
+    "tags": ["continuos", "integrate", "delivery"]
+  },
+  {
+    "name": "cloud",
+    "tags": ["cloud"]
+  },
+  {
+    "name": "cloud-devops",
+    "tags": ["cloud", "devops"]
+  },
+  {
+    "name": "cloud-integrate",
+    "tags": ["cloud", "integrate"]
+  },
+  {
+    "name": "cloud-settings",
+    "tags": ["cloud", "settings"]
+  },
+  {
+    "name": "cloud-strategy",
+    "tags": ["cloud", "strategy"]
+  },
+  {
+    "name": "computer",
+    "tags": ["computer"]
+  },
+  {
+    "name": "contact",
+    "tags": ["contact"]
+  },
+  {
+    "name": "culture",
+    "tags": ["culture"]
+  },
+  {
+    "name": "database",
+    "tags": ["database"]
+  },
+  {
+    "name": "date",
+    "tags": ["date"]
+  },
+  {
+    "name": "day",
+    "tags": ["day"]
+  },
+  {
+    "name": "deploy",
+    "tags": ["deploy"]
+  },
+  {
+    "name": "design-qa",
+    "tags": ["design", "qa"]
+  },
+  {
+    "name": "devops",
+    "tags": ["devops"]
+  },
+  {
+    "name": "discovery",
+    "tags": ["discovery"]
+  },
+  {
+    "name": "done",
+    "tags": ["done"]
+  },
+  {
+    "name": "dynamic-culture",
+    "tags": ["dynamic", "culture"]
+  },
+  {
+    "name": "error",
+    "tags": ["error"]
+  },
+  {
+    "name": "escalate",
+    "tags": ["escalate"]
+  },
+  {
+    "name": "filter",
+    "tags": ["filter"]
+  },
+  {
+    "name": "framework",
+    "tags": ["framework"]
+  },
+  {
+    "name": "frontend",
+    "tags": ["frontend"]
+  },
+  {
+    "name": "happy",
+    "tags": ["happy"]
+  },
+  {
+    "name": "idea",
+    "tags": ["idea"]
+  },
+  {
+    "name": "interact",
+    "tags": ["interact"]
+  },
+  {
+    "name": "iot",
+    "tags": ["iot"]
+  },
+  {
+    "name": "iterate",
+    "tags": ["iterate"]
+  },
+  {
+    "name": "job",
+    "tags": ["job"]
+  },
+  {
+    "name": "journey",
+    "tags": ["journey"]
+  },
+  {
+    "name": "lead",
+    "tags": ["lead"]
+  },
+  {
+    "name": "list",
+    "tags": ["list"]
+  },
+  {
+    "name": "location",
+    "tags": ["location"]
+  },
+  {
+    "name": "low",
+    "tags": ["low"]
+  },
+  {
+    "name": "low-cost",
+    "tags": ["low-cost"]
+  },
+  {
+    "name": "low-prevent",
+    "tags": ["low-prevent"]
+  },
+  {
+    "name": "lens",
+    "tags": ["lens"]
+  },
+  {
+    "name": "machine",
+    "tags": ["machine"]
+  },
+  {
+    "name": "make-it-live",
+    "tags": ["make", "live"]
+  },
+  {
+    "name": "management",
+    "tags": ["management"]
+  },
+  {
+    "name": "mentoring",
+    "tags": ["mentoring"]
+  },
+  {
+    "name": "money",
+    "tags": ["money"]
+  },
+  {
+    "name": "night",
+    "tags": ["night"]
+  },
+  {
+    "name": "optimization",
+    "tags": ["optimization"]
+  },
+  {
+    "name": "people",
+    "tags": ["people"]
+  },
+  {
+    "name": "pwa",
+    "tags": ["pwa"]
+  },
+  {
+    "name": "qa",
+    "tags": ["qa"]
+  },
+  {
+    "name": "qa-automation",
+    "tags": ["qa", "automation"]
+  },
+  {
+    "name": "qa-functional",
+    "tags": ["qa", "functional"]
+  },
+  {
+    "name": "resolutions",
+    "tags": ["resolutions"]
+  },
+  {
+    "name": "sad",
+    "tags": ["sad"]
+  },
+  {
+    "name": "search",
+    "tags": ["search"]
+  },
+  {
+    "name": "service-accelerator",
+    "tags": ["service", "accelerator"]
+  },
+  {
+    "name": "service-agile",
+    "tags": ["service", "agile"]
+  },
+  {
+    "name": "service-cloud",
+    "tags": ["service", "cloud"]
+  },
+  {
+    "name": "service-devops",
+    "tags": ["service", "devops"]
+  },
+  {
+    "name": "service-qa",
+    "tags": ["service", "qa"]
+  },
+  {
+    "name": "service-resolutions",
+    "tags": ["service", "resolutions"]
+  },
+  {
+    "name": "service-technology",
+    "tags": ["service", "technology"]
+  },
+  {
+    "name": "solution",
+    "tags": ["solution"]
+  },
+  {
+    "name": "start",
+    "tags": ["start"]
+  },
+  {
+    "name": "system",
+    "tags": ["system"]
+  },
+  {
+    "name": "tech",
+    "tags": ["tech"]
+  },
+  {
+    "name": "technology",
+    "tags": ["technology"]
+  },
+  {
+    "name": "ui",
+    "tags": ["ui"]
+  },
+  {
+    "name": "upload",
+    "tags": ["upload"]
+  },
+  {
+    "name": "user-research",
+    "tags": ["user", "research"]
+  },
+  {
+    "name": "ux",
+    "tags": ["ux"]
+  },
+  {
+    "name": "versatile",
+    "tags": ["versatile"]
+  },
+  {
+    "name": "workplace",
+    "tags": ["workplace"]
+  }
+]

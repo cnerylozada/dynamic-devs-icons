@@ -1,0 +1,30 @@
+:host {
+  display: inline-block;
+  box-sizing: content-box;
+  stroke: currentColor;
+  width: 1em;
+  height: 1em;
+  contain: strict;
+}
+
+:host(.dd-Icon--sm) {
+  font-size: 0.9375rem;
+}
+:host(.dd-Icon--md) {
+  font-size: 1.875rem;
+}
+:host(.dd-Icon--lg) {
+  font-size: 3.125rem;
+}
+:host(.dd-Icon--xl) {
+  font-size: 6.25rem;
+}
+:host(.dd-Icon--xxl) {
+  font-size: 21.5625rem;
+}
+
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

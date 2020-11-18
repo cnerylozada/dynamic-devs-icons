@@ -5,57 +5,53 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
+import { IconSize } from "./enums";
 export namespace Components {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
+    interface DdDataTable {
+    }
+    interface DdIcon {
+        "name"?: string;
+        "size"?: IconSize;
+        "src"?: string;
     }
 }
 declare global {
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
+    interface HTMLDdDataTableElement extends Components.DdDataTable, HTMLStencilElement {
     }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
+    var HTMLDdDataTableElement: {
+        prototype: HTMLDdDataTableElement;
+        new (): HTMLDdDataTableElement;
+    };
+    interface HTMLDdIconElement extends Components.DdIcon, HTMLStencilElement {
+    }
+    var HTMLDdIconElement: {
+        prototype: HTMLDdIconElement;
+        new (): HTMLDdIconElement;
     };
     interface HTMLElementTagNameMap {
-        "my-component": HTMLMyComponentElement;
+        "dd-data-table": HTMLDdDataTableElement;
+        "dd-icon": HTMLDdIconElement;
     }
 }
 declare namespace LocalJSX {
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
+    interface DdDataTable {
+    }
+    interface DdIcon {
+        "name"?: string;
+        "size"?: IconSize;
+        "src"?: string;
     }
     interface IntrinsicElements {
-        "my-component": MyComponent;
+        "dd-data-table": DdDataTable;
+        "dd-icon": DdIcon;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "dd-data-table": LocalJSX.DdDataTable & JSXBase.HTMLAttributes<HTMLDdDataTableElement>;
+            "dd-icon": LocalJSX.DdIcon & JSXBase.HTMLAttributes<HTMLDdIconElement>;
         }
     }
 }
