@@ -24,6 +24,10 @@ export const config: Config = {
           src: './svg/*.svg',
           dest: './assets/svg/',
         },
+        {
+          src: './data/*.json',
+          dest: './assets/data/',
+        },
       ],
       serviceWorker: null, // disable service workers
     },

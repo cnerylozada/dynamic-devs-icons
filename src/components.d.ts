@@ -7,6 +7,8 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 import { IconSize } from "./enums";
 export namespace Components {
+    interface DdDataTable {
+    }
     interface DdIcon {
         "name"?: string;
         "size"?: IconSize;
@@ -14,6 +16,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLDdDataTableElement extends Components.DdDataTable, HTMLStencilElement {
+    }
+    var HTMLDdDataTableElement: {
+        prototype: HTMLDdDataTableElement;
+        new (): HTMLDdDataTableElement;
+    };
     interface HTMLDdIconElement extends Components.DdIcon, HTMLStencilElement {
     }
     var HTMLDdIconElement: {
@@ -21,16 +29,20 @@ declare global {
         new (): HTMLDdIconElement;
     };
     interface HTMLElementTagNameMap {
+        "dd-data-table": HTMLDdDataTableElement;
         "dd-icon": HTMLDdIconElement;
     }
 }
 declare namespace LocalJSX {
+    interface DdDataTable {
+    }
     interface DdIcon {
         "name"?: string;
         "size"?: IconSize;
         "src"?: string;
     }
     interface IntrinsicElements {
+        "dd-data-table": DdDataTable;
         "dd-icon": DdIcon;
     }
 }
@@ -38,6 +50,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "dd-data-table": LocalJSX.DdDataTable & JSXBase.HTMLAttributes<HTMLDdDataTableElement>;
             "dd-icon": LocalJSX.DdIcon & JSXBase.HTMLAttributes<HTMLDdIconElement>;
         }
     }

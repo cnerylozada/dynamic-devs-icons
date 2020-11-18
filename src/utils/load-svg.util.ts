@@ -16,3 +16,17 @@ export const getSVGContent = (url: string) => {
   }
   return request;
 };
+
+export const getIconList = (url: string) => {
+  let request = REQUESTS.get(url);
+
+  if (!request) {
+    request = fetch(url).then((response: Response) => {
+      if (response.ok) {
+        return response.json();
+      }
+      ICONS_CONTENT.set(url, '');
+    })
+  }
+  return request;
+};
