@@ -12,5 +12,4 @@ deploy_production:
     - npm install -g firebase-tools
     - npm install
     - npm run build
-    - firebase use --token "$FIREBASE_DEPLOY_KEY" default
-    - firebase deploy --token "$FIREBASE_DEPLOY_KEY"
+    - firebase deploy --token $FIREBASE_DEPLOY_KEY
