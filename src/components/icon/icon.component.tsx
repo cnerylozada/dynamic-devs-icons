@@ -33,8 +33,6 @@ export class Icon {
   @Watch('name')
   @Watch('src')
   private loadIcon(): void {
-    console.log('hola');
-
     if (!Build.isBrowser) {
       return;
     }
