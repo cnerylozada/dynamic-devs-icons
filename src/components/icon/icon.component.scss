@@ -1,7 +1,7 @@
 :host {
   display: inline-block;
   box-sizing: content-box;
-  stroke: currentColor;
+  stroke: currentColor !important;
   width: 1em;
   height: 1em;
   contain: strict;
