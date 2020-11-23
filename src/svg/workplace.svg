@@ -1,13 +1,13 @@
 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7.03125 1.40625H1.875V13.5938H7.03125V1.40625Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M13.125 5.625H7.96875V13.5938H13.125V5.625Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M3.75 2.34375H2.8125V3.28125H3.75V2.34375Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M12.1875 6.5625H8.90625V7.5H12.1875V6.5625Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M6.09375 4.21875H5.15625V5.15625H6.09375V4.21875Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M3.75 6.09375H2.8125V7.03125H3.75V6.09375Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M6.09375 6.09375H5.15625V7.03125H6.09375V6.09375Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M3.75 9.84375H2.8125V10.7812H3.75V9.84375Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M6.09375 11.7188H5.15625V12.6562H6.09375V11.7188Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M9.84375 8.4375H8.90625V9.375H9.84375V8.4375Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
-<path d="M12.1969 9.84375H11.2594V10.7812H12.1969V9.84375Z" stroke="black" stroke-width="0.5" stroke-miterlimit="10"/>
+<path d="M7.03125 1.40625H1.875V13.5938H7.03125V1.40625Z"  stroke-miterlimit="10"/>
+<path d="M13.125 5.625H7.96875V13.5938H13.125V5.625Z"  stroke-miterlimit="10"/>
+<path d="M3.75 2.34375H2.8125V3.28125H3.75V2.34375Z"  stroke-miterlimit="10"/>
+<path d="M12.1875 6.5625H8.90625V7.5H12.1875V6.5625Z"  stroke-miterlimit="10"/>
+<path d="M6.09375 4.21875H5.15625V5.15625H6.09375V4.21875Z"  stroke-miterlimit="10"/>
+<path d="M3.75 6.09375H2.8125V7.03125H3.75V6.09375Z"  stroke-miterlimit="10"/>
+<path d="M6.09375 6.09375H5.15625V7.03125H6.09375V6.09375Z"  stroke-miterlimit="10"/>
+<path d="M3.75 9.84375H2.8125V10.7812H3.75V9.84375Z"  stroke-miterlimit="10"/>
+<path d="M6.09375 11.7188H5.15625V12.6562H6.09375V11.7188Z"  stroke-miterlimit="10"/>
+<path d="M9.84375 8.4375H8.90625V9.375H9.84375V8.4375Z"  stroke-miterlimit="10"/>
+<path d="M12.1969 9.84375H11.2594V10.7812H12.1969V9.84375Z"  stroke-miterlimit="10"/>
 </svg>
