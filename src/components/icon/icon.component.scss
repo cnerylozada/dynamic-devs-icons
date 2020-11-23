@@ -3,7 +3,6 @@
   box-sizing: content-box;
   stroke: currentColor !important;
   fill: currentColor !important;
-  stroke-width: 0.5;
   width: 1em;
   height: 1em;
   contain: strict;
@@ -23,6 +22,22 @@
 }
 :host(.dd-Icon--xxl) {
   font-size: 21.5625rem;
+}
+
+:host(.dd-Icon--extraLight) {
+  stroke: 0.3;
+}
+:host(.dd-Icon--light) {
+  stroke: 0.5;
+}
+:host(.dd-Icon--regular) {
+  stroke: 0.75;
+}
+:host(.dd-Icon--semiBold) {
+  stroke: 1;
+}
+:host(.dd-Icon--bold) {
+  stroke: 3;
 }
 
 svg {

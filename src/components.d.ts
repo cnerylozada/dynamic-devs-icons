@@ -5,7 +5,7 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { IconSize } from "./enums";
+import { IconSize, IconStroke } from "./enums";
 export namespace Components {
     interface DdDataTable {
     }
@@ -13,6 +13,7 @@ export namespace Components {
         "name"?: string;
         "size"?: IconSize;
         "src"?: string;
+        "stroke"?: IconStroke;
     }
 }
 declare global {
@@ -40,6 +41,7 @@ declare namespace LocalJSX {
         "name"?: string;
         "size"?: IconSize;
         "src"?: string;
+        "stroke"?: IconStroke;
     }
     interface IntrinsicElements {
         "dd-data-table": DdDataTable;
