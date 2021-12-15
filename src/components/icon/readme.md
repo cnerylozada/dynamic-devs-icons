@@ -7,11 +7,25 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `name`   | `name`    |             | `string` | `undefined` |
-| `src`    | `src`     |             | `string` | `undefined` |
+| Property | Attribute | Description | Type                                                                       | Default       |
+| -------- | --------- | ----------- | -------------------------------------------------------------------------- | ------------- |
+| `name`   | `name`    |             | `string`                                                                   | `undefined`   |
+| `size`   | `size`    |             | `IconSize.lg \| IconSize.md \| IconSize.sm \| IconSize.xl \| IconSize.xxl` | `IconSize.md` |
+| `src`    | `src`     |             | `string`                                                                   | `undefined`   |
 
+
+## Dependencies
+
+### Used by
+
+ - [dd-data-table](../data-table)
+
+### Graph
+```mermaid
+graph TD;
+  dd-data-table --> dd-icon
+  style dd-icon fill:#f9f,stroke:#333,stroke-width:4px
+```
 
 ----------------------------------------------
 
