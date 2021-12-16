@@ -3,9 +3,7 @@ import { sass } from '@stencil/sass';
 
 export const config: Config = {
   namespace: 'dynamic-devs-icons',
-  plugins: [
-    sass()
-  ],
+  plugins: [sass()],
   outputTargets: [
     {
       type: 'dist',
@@ -23,6 +21,14 @@ export const config: Config = {
         {
           src: './svg/*.svg',
           dest: './assets/svg/',
+        },
+        {
+          src: './svg/techs/*.svg',
+          dest: './assets/svg/logos/',
+        },
+        {
+          src: './svg/clients/*.svg',
+          dest: './assets/svg/logos/',
         },
         {
           src: './data/*.json',

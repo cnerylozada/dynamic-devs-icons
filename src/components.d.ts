@@ -14,6 +14,11 @@ export namespace Components {
         "size"?: IconSize;
         "src"?: string;
     }
+    interface DdSvg {
+        "name"?: string;
+        "src"?: string;
+        "type": string;
+    }
 }
 declare global {
     interface HTMLDdDataTableElement extends Components.DdDataTable, HTMLStencilElement {
@@ -28,9 +33,16 @@ declare global {
         prototype: HTMLDdIconElement;
         new (): HTMLDdIconElement;
     };
+    interface HTMLDdSvgElement extends Components.DdSvg, HTMLStencilElement {
+    }
+    var HTMLDdSvgElement: {
+        prototype: HTMLDdSvgElement;
+        new (): HTMLDdSvgElement;
+    };
     interface HTMLElementTagNameMap {
         "dd-data-table": HTMLDdDataTableElement;
         "dd-icon": HTMLDdIconElement;
+        "dd-svg": HTMLDdSvgElement;
     }
 }
 declare namespace LocalJSX {
@@ -41,9 +53,15 @@ declare namespace LocalJSX {
         "size"?: IconSize;
         "src"?: string;
     }
+    interface DdSvg {
+        "name"?: string;
+        "src"?: string;
+        "type"?: string;
+    }
     interface IntrinsicElements {
         "dd-data-table": DdDataTable;
         "dd-icon": DdIcon;
+        "dd-svg": DdSvg;
     }
 }
 export { LocalJSX as JSX };
@@ -52,6 +70,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "dd-data-table": LocalJSX.DdDataTable & JSXBase.HTMLAttributes<HTMLDdDataTableElement>;
             "dd-icon": LocalJSX.DdIcon & JSXBase.HTMLAttributes<HTMLDdIconElement>;
+            "dd-svg": LocalJSX.DdSvg & JSXBase.HTMLAttributes<HTMLDdSvgElement>;
         }
     }
 }

@@ -1,0 +1,29 @@
+:host {
+  display: inline-block;
+  box-sizing: content-box;
+  fill: currentColor !important;
+  width: 3em;
+  height: 1em;
+}
+
+:host(.dd-svg--illustration) {
+  font-size: 33.333px;
+  @media (min-width: '36rem') {
+    font-size: 50px;
+  }
+}
+
+:host(.dd-svg--logo) {
+  width: 1em;
+  height: 1em;
+  font-size: 40px;
+  @media (min-width: '36rem') {
+    font-size: 50px;
+  }
+}
+
+svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
