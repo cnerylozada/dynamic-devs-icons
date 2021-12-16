@@ -1,5 +1,5 @@
 import { Build, Component, getAssetPath, h, Host, Prop, State, Watch } from '@stencil/core';
-import { IconSize } from '../../enums';
+import { IconSize, IconStroke } from '../../enums';
 import { getSVGContent, ICONS_CONTENT } from '../../utils/load-svg.util';
 
 @Component({
@@ -11,6 +11,7 @@ export class Icon {
   @Prop() name?: string;
   @Prop() src?: string;
   @Prop() size?: IconSize = IconSize.md;
+  @Prop() stroke?: IconStroke = IconStroke.regular;
   @State() private svgContent?: string;
 
   public connectedCallback() {
@@ -44,6 +45,7 @@ export class Icon {
     return {
       'dd-Icon': true,
       [`dd-Icon--${this.size}`]: true,
+      [`dd-Icon--${this.stroke}`]: true,
     };
   }
 }
