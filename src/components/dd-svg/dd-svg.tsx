@@ -1,17 +1,15 @@
 import { Build, Component, getAssetPath, h, Host, Prop, State, Watch } from '@stencil/core';
-import { IconSize, IconStroke } from '../../enums';
 import { getSVGContent, ICONS_CONTENT } from '../../utils/load-svg.util';
 
 @Component({
-  tag: 'dd-icon',
-  styleUrl: 'icon.component.scss',
+  tag: 'dd-svg',
+  styleUrl: 'dd-svg.scss',
   shadow: true,
 })
-export class Icon {
+export class DdSvg {
   @Prop() name?: string;
+  @Prop() type: string = 'illustration';
   @Prop() src?: string;
-  @Prop() size?: IconSize = IconSize.md;
-  @Prop() stroke?: IconStroke = IconStroke.regular;
   @State() private svgContent?: string;
 
   public connectedCallback() {
@@ -21,7 +19,7 @@ export class Icon {
   render() {
     return (
       <Host role="img" class={this.getClassList()}>
-        {Build.isBrowser && this.svgContent ? <div class="dd-Icon-content" innerHTML={this.svgContent}></div> : <div class="dd-Icon-content"></div>}
+        {Build.isBrowser && this.svgContent ? <div innerHTML={this.svgContent}></div> : <div></div>}
       </Host>
     );
   }
@@ -32,7 +30,7 @@ export class Icon {
     if (!Build.isBrowser) {
       return;
     }
-    const url: string = !!this.name ? getAssetPath(`../assets/svg/${this.name}.svg`) : this.src;
+    const url: string = !!this.name ? getAssetPath(`../assets/svg/logos/${this.name}.svg`) : this.src;
 
     if (ICONS_CONTENT.has(url)) {
       this.svgContent = ICONS_CONTENT.get(url);
@@ -43,9 +41,7 @@ export class Icon {
 
   private getClassList() {
     return {
-      'dd-Icon': true,
-      [`dd-Icon--${this.size}`]: true,
-      [`dd-Icon--${this.stroke}`]: true,
+      [`dd-svg--${this.type}`]: true,
     };
   }
 }

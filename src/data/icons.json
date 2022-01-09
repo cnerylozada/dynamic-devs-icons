@@ -36,6 +36,10 @@
     "tags": ["arrowbig"]
   },
   {
+    "name": "arrowmore",
+    "tags": ["arrowmore"]
+  },
+  {
     "name": "author",
     "tags": ["author"]
   },
@@ -54,6 +58,14 @@
   {
     "name": "build-puzzle",
     "tags": ["build", "puzzle"]
+  },
+  {
+    "name": "bullet-left",
+    "tags": ["bullet", "left"]
+  },
+  {
+    "name": "bullet-right",
+    "tags": ["bullet", "right"]
   },
   {
     "name": "bussiness",
