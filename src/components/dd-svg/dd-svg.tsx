@@ -9,6 +9,7 @@ import { getSVGContent, ICONS_CONTENT } from '../../utils/load-svg.util';
 export class DdSvg {
   @Prop() name?: string;
   @Prop() type: string = 'illustration';
+  @Prop() size?: 'normal' | 'small' = 'normal';
   @Prop() src?: string;
   @State() private svgContent?: string;
 
@@ -41,7 +42,7 @@ export class DdSvg {
 
   private getClassList() {
     return {
-      [`dd-svg--${this.type}`]: true,
+      [`dd-svg--${this.type}-${this.size}`]: true,
     };
   }
 }

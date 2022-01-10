@@ -17,6 +17,7 @@ export namespace Components {
     }
     interface DdSvg {
         "name"?: string;
+        "size"?: 'normal' | 'small';
         "src"?: string;
         "type": string;
     }
@@ -57,6 +58,7 @@ declare namespace LocalJSX {
     }
     interface DdSvg {
         "name"?: string;
+        "size"?: 'normal' | 'small';
         "src"?: string;
         "type"?: string;
     }

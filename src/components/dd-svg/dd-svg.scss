@@ -6,14 +6,19 @@
   height: 1em;
 }
 
-:host(.dd-svg--illustration) {
+:host(.dd-svg--illustration-normal) {
   font-size: 33.333px;
   @media (min-width: '36rem') {
     font-size: 50px;
   }
 }
 
-:host(.dd-svg--logo) {
+:host(.dd-svg--logo-small) {
+  width: 1em;
+  height: 1em;
+  font-size: 20px;
+}
+:host(.dd-svg--logo-normal) {
   width: 1em;
   height: 1em;
   font-size: 40px;
