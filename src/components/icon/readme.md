@@ -7,11 +7,12 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type                                                                       | Default       |
-| -------- | --------- | ----------- | -------------------------------------------------------------------------- | ------------- |
-| `name`   | `name`    |             | `string`                                                                   | `undefined`   |
-| `size`   | `size`    |             | `IconSize.lg \| IconSize.md \| IconSize.sm \| IconSize.xl \| IconSize.xxl` | `IconSize.md` |
-| `src`    | `src`     |             | `string`                                                                   | `undefined`   |
+| Property | Attribute | Description | Type                                                                                                        | Default              |
+| -------- | --------- | ----------- | ----------------------------------------------------------------------------------------------------------- | -------------------- |
+| `name`   | `name`    |             | `string`                                                                                                    | `undefined`          |
+| `size`   | `size`    |             | `IconSize.lg \| IconSize.md \| IconSize.sm \| IconSize.xl \| IconSize.xxl`                                  | `IconSize.md`        |
+| `src`    | `src`     |             | `string`                                                                                                    | `undefined`          |
+| `stroke` | `stroke`  |             | `IconStroke.bold \| IconStroke.extraLight \| IconStroke.light \| IconStroke.regular \| IconStroke.semiBold` | `IconStroke.regular` |
 
 
 ## Dependencies
