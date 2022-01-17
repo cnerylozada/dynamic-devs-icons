@@ -20,13 +20,18 @@
 :host(.dd-Icon--xl) {
   font-size: 6.25rem;
 }
-
 :host(.dd-Icon--2xl) {
   font-size: 12.5rem;
 }
-
 :host(.dd-Icon--xxl) {
   font-size: 21.5625rem;
+}
+
+:host(.dd-Icon--graphic) {
+  font-size: 250px;
+  @media (min-width: 36rem) {
+    font-size: 350px;
+  }
 }
 
 :host(.dd-Icon--extraLight) {

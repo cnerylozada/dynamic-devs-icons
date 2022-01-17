@@ -3,5 +3,6 @@ export enum IconSize {
   md = 'md',
   lg = 'lg',
   xl = 'xl',
-  xxl = 'xxl'
+  xxl = 'xxl',
+  graphic = 'graphic',
 }
