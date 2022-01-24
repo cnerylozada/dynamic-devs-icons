@@ -28,9 +28,11 @@
 }
 
 :host(.dd-Icon--graphic) {
-  font-size: 250px;
+  width: 250px;
+  height: 178.57px;
   @media (min-width: 36rem) {
-    font-size: 350px;
+    width: 350px;
+    height: 250px;
   }
 }
 
